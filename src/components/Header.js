@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, StyleSheet, Text, TouchableOpacity} from 'react-native'
+import { View, StyleSheet, Text, TouchableOpacity } from 'react-native'
 import Flag from './Flag'
 
 
@@ -22,7 +22,7 @@ export default props => {
 }
 
 
-const styles = StyleSheet.create ({
+const styles = StyleSheet.create({
     container: {
         flex: 1,
         flexDirection: 'row',
@@ -37,7 +37,7 @@ const styles = StyleSheet.create ({
     },
     flagButton: {
         marginTop: 10,
-        marginLeft: 30,
+        minWidth: 30,
     },
     flagsLeft: {
         fontSize: 30,
@@ -52,6 +52,6 @@ const styles = StyleSheet.create ({
     buttonLabel: {
         fontSize: 20,
         color: '#DDD',
-        fontWeight: 'bold',     
+        fontWeight: 'bold',
     }
 })
